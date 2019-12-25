@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding: 0;
+	background:url("web.jpg") no-repeat center center fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family:century gothic;
+}
+/*edit area/*/
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	height: 100vh;
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6 ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+/*look area of shadow*/
+body{
+	max-width: 1200px;
+	margin: auto;
+}
+.logo img{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+/*center login/singup*/
+.button{
+	position: absolute;
+	top:60%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.8 ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
